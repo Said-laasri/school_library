@@ -1,4 +1,4 @@
-# ENUMERABLE OBJECT IN RUBY
+# OOP school_library
 
 In this project i'm asked to create an OOP_school library from scratch in Ruby.
 
