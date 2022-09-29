@@ -81,10 +81,12 @@ class App
     list_people
     puts 'ID of person:'
     id = gets.chomp.to_i
-
     person = @people.select { |x| x.id == id }[0]
-
-    person.rentals.each { |rental| puts "Rental: #{rental.date} book: #{rental.book.title}" }
+    if person
+      person.rentals.each { |rental| puts "Rental: #{rental.date} book: #{rental.book.title}" }
+    else
+      puts 'Wron input please try again!!'
+    end
   end
 
   def exit_method
