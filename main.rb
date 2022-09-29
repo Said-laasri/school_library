@@ -14,11 +14,11 @@ def selection(option, app)
     app.add_rental
   when 6
     app.list_rentals
-  when 7
-    app.exit_method
-  else
-    puts 'bye'
   end
+end
+
+def abord(option, app)
+  app.exit_method unless option != 7
 end
 
 def main
@@ -38,6 +38,7 @@ def main
     option = gets.chomp.to_i
 
     selection(option, app)
+    abord(option, app)
   end
 end
 
