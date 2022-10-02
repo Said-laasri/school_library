@@ -16,7 +16,7 @@ To get a local copy of this program, Please follow these simple example steps.
 3. Copy/Paste this command : `git clone https://github.com/Said-laasri/school_library.git`  
    then press Enter
 4. Run this command `code .` to open this folder in VScode
-5. Open terminal and run this command `ruby class.rb`
+5. Open terminal and run this command `ruby main.rb`
 
 ## Author
 
