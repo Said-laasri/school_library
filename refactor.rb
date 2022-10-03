@@ -1,7 +1,7 @@
 require_relative 'app'
 
 class Select
-  def select_method (option, app)
+  def select_method(option, app)
     case option
     when 1
       app.list_books

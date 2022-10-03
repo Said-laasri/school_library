@@ -16,7 +16,7 @@ def main
     puts ' 7 - Exit '
 
     option = gets.chomp.to_i
-    select = Select.new()
+    select = Select.new
     select.select_method(option, app)
   end
 end
