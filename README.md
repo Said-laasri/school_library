@@ -26,6 +26,8 @@ To get a local copy of this program, Please follow these simple example steps.
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
+👤 **Tushar Singh**
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
