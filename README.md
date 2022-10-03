@@ -26,6 +26,12 @@ To get a local copy of this program, Please follow these simple example steps.
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
+👤 **Tushar Singh**
+
+- GitHub: [@PinkMoon25](https://github.com/PinkMoon25/)
+- Twitter: [@twitterhandle](https://twitter.com/TusharS90674484)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/meet-tushar-singh/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
