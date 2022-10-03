@@ -18,6 +18,7 @@ def main
     option = gets.chomp.to_i
     select = Select.new
     select.select_method(option, app)
+    select.abort_method(option, app)
   end
 end
 

@@ -15,8 +15,10 @@ class Select
       app.add_rental
     when 6
       app.list_rentals
-    when 7
-      app.exit_method
     end
+  end
+
+  def abort_method(option, app)
+    app.exit_method unless option != 7
   end
 end
