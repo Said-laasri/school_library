@@ -16,7 +16,7 @@ describe TrimmerDecorator do
         # test code
         person = Person.new(22, 'maximilianus')
         decorator = TrimmerDecorator.new(person)
-        expect(decorator.correct_name).to eql "maximilian"
+        expect(decorator.correct_name).to eql 'maximilian'
       end
     end
   end

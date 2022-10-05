@@ -17,7 +17,7 @@ describe Decorator do
         # test code
         person = Person.new(22, 'rex')
         decorator = Decorator.new(person)
-        expect(decorator.correct_name).to eql "rex" 
+        expect(decorator.correct_name).to eql 'rex'
       end
     end
   end

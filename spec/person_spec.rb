@@ -17,7 +17,7 @@ describe Person do
       it 'returns a person object with name set to unknown' do
         # test code
         person = Person.new(18)
-        expect(person.name).to eql "Unknown"
+        expect(person.name).to eql 'Unknown'
       end
       it 'returns a person object with parent permission false' do
         # test code

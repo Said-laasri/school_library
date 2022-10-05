@@ -13,7 +13,7 @@ describe Student do
       expect(student.play_hooky).to eq "¯\(ツ)/¯"
     end
     it 'returns the classroom of the student' do
-      student = Student.new(15, 'John', parent_permission:false)
+      student = Student.new(15, 'John', parent_permission: false)
       expect(student.can_use_services?).to be false
     end
   end
