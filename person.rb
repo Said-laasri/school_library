@@ -32,4 +32,8 @@ class Person < Nameable
   def of_age?
     @age >= 18
   end
+
+  def you_human?
+    puts 'animal' unless name.exist?
+  end
 end
