@@ -14,8 +14,8 @@ describe Book do
       it 'book title and author should be correct' do
         # test code
         book = Book.new('John Doe', 'Test')
-        expect(book.author).to eql "John Doe"
-        expect(book.title).to eql "Test"
+        expect(book.author).to eql 'John Doe'
+        expect(book.title).to eql 'Test'
       end
     end
   end

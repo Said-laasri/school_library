@@ -12,7 +12,7 @@ describe Classroom do
     end
     it 'adds a label to the classroom' do
       classroom = Classroom.new('Math')
-      expect(classroom.label).to eql "Math"
+      expect(classroom.label).to eql 'Math'
     end
   end
 end
