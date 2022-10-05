@@ -4,7 +4,6 @@ require_relative 'rental'
 require_relative 'teacher'
 require_relative 'student'
 require 'date'
-require_relative 'rental'
 
 # test class rental
 describe Rental do

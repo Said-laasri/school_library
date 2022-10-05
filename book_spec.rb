@@ -5,9 +5,9 @@ require_relative 'book'
 describe Book do
   describe '#new' do
     context 'when given valid parameters' do
-      #test
+      # test
       it 'returns a Book object' do
-        #test code
+        # test code
         book = Book.new('John Doe', 'Test')
         expect(book).to be_an_instance_of(Book)
       end
