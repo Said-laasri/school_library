@@ -15,7 +15,7 @@ class Person < Nameable
   end
 
   def can_use_services?
-    of_age? >= 18 || @parent_permission
+    @age >= 18 || @parent_permission
   end
 
   def add_rental(rental)
@@ -31,5 +31,9 @@ class Person < Nameable
 
   def of_age?
     @age >= 18
+  end
+
+  def you_human?
+    puts 'animal' unless name.exist?
   end
 end
