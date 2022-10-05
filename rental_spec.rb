@@ -4,18 +4,7 @@ require_relative 'rental'
 require_relative 'teacher'
 require_relative 'student'
 require 'date'
-
-class Rental
-  attr_accessor :date, :book, :person
-
-  def initialize(date, book, person)
-    @date = date
-    @person = person
-    @book = book
-    person.rentals << self
-    book.rentals << self
-  end
-end
+require_relative 'rental'
 
 # test class rental
 describe Rental do
