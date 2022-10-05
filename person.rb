@@ -15,7 +15,7 @@ class Person < Nameable
   end
 
   def can_use_services?
-    of_age? >= 18 || @parent_permission
+    @age >= 18 || @parent_permission
   end
 
   def add_rental(rental)
